@@ -1,11 +1,11 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #３ 5月22日～29日"
-date: 2025-05-30
-issue_number: 4
+title: "【AI イノベーション室】（勝手に）週間ニュース #5 5月30日～6月6日"
+date: 2025-06-06
+issue_number: 5
 reporting_period:
-  start: 2025-05-22
-  end: 2025-05-29
-template: "/Users/nishikawa/projects/inta/weekly_ai_news/ai_news_template.md"
+  start: 2025-05-30
+  end: 2025-06-05
+template: "/Users/nishikawa/projects/inta/weekly_ai_news/template.md"
 format: "markdown"
 ---
 
@@ -21,9 +21,19 @@ format: "markdown"
 - 専門用語を過度に使用せず、様々な職種の読者に分かりやすく伝える
 - 各ニュースに適切な絵文字を添えて読者に楽しく読めるようにする
 - 絵文字は各ニュースの内容に合わせて適切に選択する
+
+</behavior_guidelines>
+
+<searching_guidelines>
+
+- 出力するニュースの件数より多くの情報を収集すること
+  - 最低 30 件取得すること
 - 異なるソースからニュースを収集し、情報の偏りを避ける
+  - 最低 6 つ以上のソースを参照すること
 - まとめサイト等を参考にする場合にはそのソースとなったサイトを確認する
-  </behavior_guidelines>
+  - 一覧になっているページはソースではない
+
+</searching_guidelines>
 
 <output_format>
 
@@ -50,14 +60,13 @@ format: "markdown"
 - 実際のニュースへのリンクを各項目に貼ること
 - 「【PICK UP】」セクションには特に重要なニュースを 1 つ選び、100 字以内の説明を付けること
 - 各カテゴリに 3〜4 件のニュースを含めること
-- ニュースは 30 件程度取得すること
-  - 配信するニュースはその中から 10 件程度とすること
 - 配信するニュース名は front matter の title フィールドの値を使用すること
-  </content_requirements>
+
+</content_requirements>
 
 <template_reference>
 テンプレートは以下の場所にあります:
-/Users/nishikawa/projects/inta/weekly_ai_news/ai_news_template.md
+/Users/nishikawa/projects/inta/weekly_ai_news/template.md
 </template_reference>
 
 <metadata_configuration>
@@ -70,7 +79,8 @@ format: "markdown"
 - reporting_period.end: 対象期間の終了日
 - template: 使用するテンプレートファイルのパス
 - format: 出力フォーマット
-  </metadata_configuration>
+
+</metadata_configuration>
 
 <audience>
 読者はプログラマーのような専門職から経理などの一般職まで幅広い層を想定しています。
