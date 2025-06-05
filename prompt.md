@@ -4,18 +4,21 @@
 
 このテンプレートの変数は以下
 
-- 対象期間の始まりは 25 年 04 月 25 日、終わりは 25 年 05 月 06 日
+- 対象期間の始まりは 25 年 05 月 06 日、終わりは 25 年 05 月 14 日
 - 配信日は対象期間の終わりの 1 日後
 - 読者はプログラマーのような専門職から経理などの一般職
 
 対象期間に話題になった生成 AI に関する日本語の実際のニュースや記事を 10 個ほどピックアップしてほしい
-ピックアップのために Web を使っても良いです
+
+- ピックアップのために Web を使っても良いです
+- まとめサイト等を参考にする場合にはそのソースとなったサイトを確認すること
+- 可能が限り、それぞれのニュースは異なるソースから取得してほしい
 
 - 配信するニュース名は`【AIイノベーション室】（勝手に）週間ニュース ${対象期間の月と日を入れる}`
 - テンプレがこちら
-  - `/Users/nishikawa/projects/interactive/mbo/weeklky_ai_news/ai_news_template.md`
+  - `/Users/nishikawa/projects/inta/weekly_ai_news/ai_news_template.md`
 - 出力形式はマークダウンにすること
-  - 出力パスは`/Users/nishikawa/projects/interactive/mbo/weeklky_ai_news/news`
+  - 出力パスは`/Users/nishikawa/projects/inta/weekly_ai_news/news`
   - ファイル名は`YYMMdd_weekly_ai_news.md`
     - 日付部分は配信日
     - 同名ファイルがある場合は番号を付与してください
