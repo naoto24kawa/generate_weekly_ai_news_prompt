@@ -67,10 +67,9 @@
 ## プロンプト
 
 - 差分
-  - https://github.com/naoto24kawa/weekly_ai_news/commit/1d7879f1e86d64c8d7ce9723a155bd9898c16f32
+  - https://github.com/naoto24kawa/weekly_ai_news/commit/38f6e5da1cee3fdc5220d6cba90ee0bb2c057064
 - 改善点
-  - ソースを増やすように指定したら、効いたっぽい
-  - 一覧ページの定義を追加したら、一覧を参照しないようになった
+  - ソースを指定したら精度上がった（これじゃクローラーじゃん,,,）
 - 改善したい点
-  - 情報が古い、、
-  - 新しい情報取るのが難しい、、
+  - PRTimes 等の一覧ページをリンクとしてしまうのでどうにかしたい
+    - AI に精度を求めるのは間違っているのは分かっているが、、
