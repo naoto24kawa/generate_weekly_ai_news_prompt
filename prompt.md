@@ -1,11 +1,12 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #5 5月30日～6月6日"
-date: 2025-06-06
-issue_number: 5
+title: "【AI イノベーション室】（勝手に）週間ニュース #5 6月6日～6月13日"
+date: 2025-06-13
+issue_number: 6
 reporting_period:
-  start: 2025-05-30
-  end: 2025-06-05
-template: "/Users/nishikawa/projects/inta/weekly_ai_news/template.md"
+  start: 2025-06-06
+  end: 2025-06-13
+template: "./template.md"
+output: "./news/weekly"
 format: "markdown"
 ---
 
@@ -17,7 +18,7 @@ format: "markdown"
 
 - フレンドリーで読みやすい文体を使用する
 - 正確な情報を簡潔にまとめる
-- 時事的なニュースを積極的に取り扱うこと
+- 時事的なニュースのみを取り扱うこと
 - 専門用語を過度に使用せず、様々な職種の読者に分かりやすく伝える
 - 各ニュースに適切な絵文字を添えて読者に楽しく読めるようにする
 - 絵文字は各ニュースの内容に合わせて適切に選択する
@@ -26,6 +27,8 @@ format: "markdown"
 
 <searching_guidelines>
 
+- data_sources の URL 一覧から記事を収集すること
+- 更新日が reporting_period に含まれる記事を収集すること
 - 出力するニュースの件数より多くの情報を収集すること
   - 最低 30 件取得すること
 - 異なるソースからニュースを収集し、情報の偏りを避ける
@@ -39,7 +42,7 @@ format: "markdown"
 
 - ファイル形式: front matter の format フィールドで指定された形式
 - ファイル名: YYMMdd_weekly_ai_news.md（front matter の date フィールドの日付を使用）
-- 出力パス: /Users/nishikawa/projects/inta/weekly_ai_news/news
+- 出力パス: front matter の output フィールドの日付を使用
 - 同名ファイルがある場合は番号を付与する
 
 - 構成:
@@ -66,7 +69,7 @@ format: "markdown"
 
 <template_reference>
 テンプレートは以下の場所にあります:
-/Users/nishikawa/projects/inta/weekly_ai_news/template.md
+./template.md
 </template_reference>
 
 <metadata_configuration>
@@ -86,6 +89,20 @@ format: "markdown"
 読者はプログラマーのような専門職から経理などの一般職まで幅広い層を想定しています。
 技術的な内容は噛み砕いて説明し、ビジネス面での意義も伝えるよう心がけてください。
 </audience>
+
+<data_sources>
+
+- https://ainow.ai/new/
+- https://ledge.ai/
+- https://aismiley.co.jp/ai_news/
+- https://www.itmedia.co.jp/aiplus/subtop/news/index.html
+- https://pertechtual.co.jp/aiblog/
+- https://prtimes.jp/topics/keywords/AI
+- https://www.businessinsider.jp/search?q=AI
+- https://www.gizmodo.jp/tag/ai/
+- https://www.afpbb.com/search?fulltext=AI
+
+</data_sources>
 
 <examples>
 <example id="挨拶">
