@@ -1,10 +1,10 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #5 6月6日～6月13日"
-date: 2025-06-13
-issue_number: 6
+title: "【AI イノベーション室】（勝手に）週間ニュース #7 6月13日～6月20日"
+date: 2025-06-20
+issue_number: 7
 reporting_period:
-  start: 2025-06-06
-  end: 2025-06-13
+  start: 2025-06-13
+  end: 2025-06-20
 template: "./template.md"
 output: "./news/weekly"
 format: "markdown"
@@ -16,6 +16,7 @@ format: "markdown"
 
 <behavior_guidelines>
 
+- ultrathink
 - フレンドリーで読みやすい文体を使用する
 - 正確な情報を簡潔にまとめる
 - 時事的なニュースのみを取り扱うこと
@@ -92,6 +93,8 @@ format: "markdown"
 
 <data_sources>
 
+<data_source type="news-site">
+
 - https://ainow.ai/new/
 - https://ledge.ai/
 - https://aismiley.co.jp/ai_news/
@@ -101,6 +104,21 @@ format: "markdown"
 - https://www.businessinsider.jp/search?q=AI
 - https://www.gizmodo.jp/tag/ai/
 - https://www.afpbb.com/search?fulltext=AI
+
+</data_source>
+
+<data_source type="release">
+
+- https://openai.com/news/
+- https://www.anthropic.com/news
+- https://deepmind.google/discover/blog/
+- https://blog.google/technology/ai/
+- https://ai.meta.com/blog/
+- https://blogs.nvidia.com/
+- https://www.amazon.science/blog
+- https://x.ai/news
+
+</data_source>
 
 </data_sources>
 
