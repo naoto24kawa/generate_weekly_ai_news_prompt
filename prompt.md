@@ -1,10 +1,10 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #7 6月13日～6月20日"
-date: 2025-06-20
-issue_number: 7
+title: "【AI イノベーション室】（勝手に）週間ニュース #8 6月20日～6月27日"
+date: 2025-06-27
+issue_number: 8
 reporting_period:
-  start: 2025-06-13
-  end: 2025-06-20
+  start: 2025-06-20
+  end: 2025-06-27
 template: "./template.md"
 output: "./news/weekly"
 format: "markdown"
@@ -16,7 +16,6 @@ format: "markdown"
 
 <behavior_guidelines>
 
-- ultrathink
 - フレンドリーで読みやすい文体を使用する
 - 正確な情報を簡潔にまとめる
 - 時事的なニュースのみを取り扱うこと
@@ -36,6 +35,7 @@ format: "markdown"
   - 最低 6 つ以上のソースを参照すること
 - まとめサイト等を参考にする場合にはそのソースとなったサイトを確認する
   - 一覧になっているページはソースではない
+- `Bash(gemini:*)`を使って記事を収集すること
 
 </searching_guidelines>
 
