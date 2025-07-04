@@ -1,10 +1,10 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #8 6月20日～6月27日"
-date: 2025-06-27
+title: "【AI イノベーション室】（勝手に）週間ニュース #9 6月27日～7月04日"
+date: 2025-07-04
 issue_number: 8
 reporting_period:
-  start: 2025-06-20
-  end: 2025-06-27
+  start: 2025-06-27
+  end: 2025-07-04
 template: "./template.md"
 output: "./news/weekly"
 format: "markdown"
@@ -35,7 +35,6 @@ format: "markdown"
   - 最低 6 つ以上のソースを参照すること
 - まとめサイト等を参考にする場合にはそのソースとなったサイトを確認する
   - 一覧になっているページはソースではない
-- `Bash(gemini:*)`を使って記事を収集すること
 
 </searching_guidelines>
 
