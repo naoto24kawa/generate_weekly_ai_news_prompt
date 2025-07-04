@@ -1,9 +1,8 @@
 {
   "mcpServers": {
-    "git": {
-      "timeout": 60,
-      "command": "/Users/nishikawa/.asdf/shims/uvx",
-      "args": ["mcp-server-git"],
+    "crawler": {
+      "command": "/Users/nishikawa/.asdf/shims/npx",
+      "args": ["@elchika-inc/open-crawler-mcp-server"],
       "envFile": "~/.claude/.env.mcp",
       "transportType": "stdio"
     }
