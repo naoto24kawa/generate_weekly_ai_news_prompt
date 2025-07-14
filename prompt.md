@@ -1,10 +1,10 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #9 6月27日～7月04日"
-date: 2025-07-04
-issue_number: 8
+title: "【AI イノベーション室】（勝手に）週間ニュース #10 7月04日～7月11日"
+date: 2025-07-11
+issue_number: 10
 reporting_period:
-  start: 2025-06-27
-  end: 2025-07-04
+  start: 2025-07-04
+  end: 2025-07-11
 template: "./template.md"
 output: "./news/weekly"
 format: "markdown"
@@ -27,7 +27,7 @@ format: "markdown"
 
 <searching_guidelines>
 
-- data_sources の URL 一覧から記事を収集すること
+- data_sources の URL 一覧から RSS を通じて記事を収集すること
 - 更新日が reporting_period に含まれる記事を収集すること
 - 出力するニュースの件数より多くの情報を収集すること
   - 最低 30 件取得すること
