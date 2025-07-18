@@ -1,10 +1,10 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #10 7月04日～7月11日"
-date: 2025-07-11
-issue_number: 10
+title: "【AI イノベーション室】（勝手に）週間ニュース #11 7月11日～7月18日"
+date: 2025-07-18
+issue_number: 11
 reporting_period:
-  start: 2025-07-04
-  end: 2025-07-11
+  start: 2025-07-11
+  end: 2025-07-18
 template: "./template.md"
 output: "./news/weekly"
 format: "markdown"
@@ -94,26 +94,26 @@ format: "markdown"
 
 <data_source type="news-site">
 
-- https://ainow.ai/new/
+- https://ainow.ai/feed
 - https://ledge.ai/
-- https://aismiley.co.jp/ai_news/
-- https://www.itmedia.co.jp/aiplus/subtop/news/index.html
-- https://pertechtual.co.jp/aiblog/
-- https://prtimes.jp/topics/keywords/AI
-- https://www.businessinsider.jp/search?q=AI
-- https://www.gizmodo.jp/tag/ai/
-- https://www.afpbb.com/search?fulltext=AI
+- https://aismiley.co.jp/feed
+- https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
+- https://pertechtual.co.jp/aiblog/feed
+- https://prtimes.jp/index.rdf
+- https://www.businessinsider.jp/feed/atom.xml
+- http://feeds.gizmodo.jp/rss/gizmodo/index.xml
+- http://feeds.afpbb.com/rss/afpbb/afpbbnews
 
 </data_source>
 
 <data_source type="release">
 
-- https://openai.com/news/
+- https://openai.com/news/rss.xml
 - https://www.anthropic.com/news
 - https://deepmind.google/discover/blog/
-- https://blog.google/technology/ai/
-- https://ai.meta.com/blog/
-- https://blogs.nvidia.com/
+- https://blog.google/technology/ai/rss/
+- https://research.facebook.com/feed
+- https://blogs.nvidia.com/feed
 - https://www.amazon.science/blog
 - https://x.ai/news
 

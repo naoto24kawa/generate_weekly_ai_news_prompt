@@ -1,5 +1,22 @@
 {
   "mcpServers": {
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "git": {
+      "timeout": 60,
+      "command": "/Users/nishikawa/.asdf/shims/uvx",
+      "args": ["mcp-server-git"],
+      "envFile": "~/.claude/.env.mcp",
+      "transportType": "stdio"
+    },
+    "rss-feeder": {
+      "command": "/Users/nishikawa/.asdf/shims/npx",
+      "args": ["@elchika-inc/rss-feed-mcp-server"],
+      "envFile": "~/.claude/.env.mcp",
+      "transportType": "stdio"
+    },
     "crawler": {
       "command": "/Users/nishikawa/.asdf/shims/npx",
       "args": ["@elchika-inc/open-crawler-mcp-server"],
