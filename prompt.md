@@ -1,10 +1,10 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #12 7月18日～7月28日"
-date: 2025-07-18
-issue_number: 12
+title: "【AI イノベーション室】（勝手に）週間ニュース #13 7月28日～8月6日"
+date: 2025-08-06
+issue_number: 13
 reporting_period:
-  start: 2025-07-18
-  end: 2025-07-28
+  start: 2025-07-28
+  end: 2025-08-06
 template: "./template.md"
 output: "./news/weekly"
 format: "markdown"
