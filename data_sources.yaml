@@ -1,0 +1,22 @@
+# AI関連ニュースのデータソース
+
+news_sites:
+  - https://ainow.ai/feed
+  - https://ledge.ai/
+  - https://aismiley.co.jp/feed
+  - https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
+  - https://pertechtual.co.jp/aiblog/feed
+  - https://prtimes.jp/index.rdf
+  - https://www.businessinsider.jp/feed/atom.xml
+  - http://feeds.gizmodo.jp/rss/gizmodo/index.xml
+  - http://feeds.afpbb.com/rss/afpbb/afpbbnews
+
+release_notes:
+  - https://openai.com/news/rss.xml
+  - https://www.anthropic.com/news
+  - https://deepmind.google/discover/blog/
+  - https://blog.google/technology/ai/rss/
+  - https://research.facebook.com/feed
+  - https://blogs.nvidia.com/feed
+  - https://www.amazon.science/blog
+  - https://x.ai/news

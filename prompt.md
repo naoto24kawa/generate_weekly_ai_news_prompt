@@ -1,10 +1,10 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #13 7月28日～8月6日"
-date: 2025-08-06
-issue_number: 13
+title: "【AI イノベーション室】（勝手に）週間ニュース #13 8月6日～8月22日"
+date: 2025-08-22
+issue_number: 14
 reporting_period:
-  start: 2025-07-28
-  end: 2025-08-06
+  start: 2025-08-06
+  end: 2025-08-22
 template: "./template.md"
 output: "./news/weekly"
 format: "markdown"
@@ -109,34 +109,7 @@ MPC サーバーから提供されるツールを最大限に利用してくだ�
 </searching_guidelines>
 
 <data_sources>
-
-<data_source type="news-site">
-
-- https://ainow.ai/feed
-- https://ledge.ai/
-- https://aismiley.co.jp/feed
-- https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
-- https://pertechtual.co.jp/aiblog/feed
-- https://prtimes.jp/index.rdf
-- https://www.businessinsider.jp/feed/atom.xml
-- http://feeds.gizmodo.jp/rss/gizmodo/index.xml
-- http://feeds.afpbb.com/rss/afpbb/afpbbnews
-
-</data_source>
-
-<data_source type="release">
-
-- https://openai.com/news/rss.xml
-- https://www.anthropic.com/news
-- https://deepmind.google/discover/blog/
-- https://blog.google/technology/ai/rss/
-- https://research.facebook.com/feed
-- https://blogs.nvidia.com/feed
-- https://www.amazon.science/blog
-- https://x.ai/news
-
-</data_source>
-
+データソースは ./data_sources.yaml に定義されています
 </data_sources>
 
 <audience>
