@@ -1,10 +1,10 @@
 ---
-title: "【AI イノベーション室】（勝手に）週間ニュース #13 8月6日～8月22日"
-date: 2025-08-22
-issue_number: 14
+title: "【AI イノベーション室】（勝手に）週間ニュース #17 9月5日～9月22日"
+date: 2025-09-24
+issue_number: 17
 reporting_period:
-  start: 2025-08-06
-  end: 2025-08-22
+  start: 2025-04-01
+  end: 2025-09-24
 template: "./template.md"
 output: "./news/weekly"
 format: "markdown"
@@ -109,7 +109,7 @@ MPC サーバーから提供されるツールを最大限に利用してくだ�
 </searching_guidelines>
 
 <data_sources>
-データソースは ./data_sources.yaml に定義されています
+@data_sources.yaml
 </data_sources>
 
 <audience>
